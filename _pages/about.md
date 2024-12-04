@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: ""
+title: "Pushing the Boundaries of Embodied Intelligence for Unmatched Human-Robot Synergy"
 excerpt: ""
 author_profile: true
 redirect_from: 
@@ -17,14 +17,15 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+My work is primarily focused on the concept of "interaction," which encompasses the integration and application of virtual-physical interaction technologies. These technologies are designed to enable seamless collaboration between human partners and embodied intelligent robots, allowing them to operate and perform complex tasks in a wide variety of physical environments and locations. Through advanced interaction frameworks, human-robot teams can leverage existing tools and interfaces to execute a broad range of actions or movement tasks. This collaborative synergy enables the successful completion of operations that require precision, adaptability, and coordination in real-world scenarios, breaking down the traditional barriers between virtual and physical spaces. The aim is to create a dynamic, adaptable system where robots and humans can work together effortlessly, regardless of the environment or task at hand.
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=L8u3QLkAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=L8u3QLkAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
 
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2023.06*: &nbsp;🎉🎉 Sustainablity   "Model-Based Reinforcement Learning Method for Microgrid Optimization Scheduling"
+- *2022.06*: &nbsp;🎉🎉 2024 ICCA       "A Model Predictive Control Approach for USV Autonomous Cruising via Disturbance Learning" 
+- *2022.02*: &nbsp;🎉🎉 2024 CIS-RAM    "A Confidence-based Allocation Approach for USV Trajectory Tracking via Human-Robot Co-Driving"
 
 # 📝 Publications 
 
