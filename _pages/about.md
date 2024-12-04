@@ -19,13 +19,13 @@ redirect_from:
 
 My work is primarily focused on the concept of "interaction," which encompasses the integration and application of virtual-physical interaction technologies. These technologies are designed to enable seamless collaboration between human partners and embodied intelligent robots, allowing them to operate and perform complex tasks in a wide variety of physical environments and locations. Through advanced interaction frameworks, human-robot teams can leverage existing tools and interfaces to execute a broad range of actions or movement tasks. This collaborative synergy enables the successful completion of operations that require precision, adaptability, and coordination in real-world scenarios, breaking down the traditional barriers between virtual and physical spaces. The aim is to create a dynamic, adaptable system where robots and humans can work together effortlessly, regardless of the environment or task at hand.
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=L8u3QLkAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=L8u3QLkAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+As a newcomer to academic research, I am eager to engage in discussions and exchanges with fellow researchers. I look forward to collaborating with others to collectively advance the era of embodied intelligence.<img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
 
 
 # 🔥 News
-- *2023.06*: &nbsp;🎉🎉 Sustainablity   "Model-Based Reinforcement Learning Method for Microgrid Optimization Scheduling"
-- *2022.06*: &nbsp;🎉🎉 2024 ICCA       "A Model Predictive Control Approach for USV Autonomous Cruising via Disturbance Learning" 
-- *2022.02*: &nbsp;🎉🎉 2024 CIS-RAM    "A Confidence-based Allocation Approach for USV Trajectory Tracking via Human-Robot Co-Driving"
+- *2023.06*: &nbsp;🎉🎉 Sustainablity   <p style="text-align: center;">"Model-Based Reinforcement Learning Method for Microgrid Optimization Scheduling"</p>
+- *2024.06*: &nbsp;🎉🎉 2024 ICCA       <p style="text-align: center;">"A Model Predictive Control Approach for USV Autonomous Cruising via Disturbance Learning" </p>
+- *2024.08*: &nbsp;🎉🎉 2024 CIS-RAM    <p style="text-align: center;">"A Confidence-based Allocation Approach for USV Trajectory Tracking via Human-Robot Co-Driving"</p>
 
 # 📝 Publications 
 
