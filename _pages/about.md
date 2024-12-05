@@ -29,7 +29,7 @@ As a newcomer to academic research, I am eager to engage in discussions and exch
 
 # 📝 Publications 
 <!-- 2023sustainablity -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Sustainablity</div><img src='images/sustainabllity.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Sustainablity</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Model-Based Reinforcement Learning Method for Microgrid Optimization Scheduling](https://www.mdpi.com/2071-1050/15/12/9235)
