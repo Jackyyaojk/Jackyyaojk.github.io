@@ -63,7 +63,7 @@ As a newcomer to academic research, I am eager to engage in discussions and exch
 Maotong Cheng, **Jinke Yao**, Qinyuan Ren
 
 [**Project**](https://github.com/Jackyyaojk/BoatController.git) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- a learning-based model predictive control (MPC) approach for USV course-keeping subject to disturbances and uncertainties. A relatively simplified dynamics model is augmented by a long short term memory (LSTM) residual model, which can capture complicated hydrodynamics effect and eliminate model mismatch. 
+- A learning-based model predictive control (MPC) approach for USV course-keeping subject to disturbances and uncertainties. A relatively simplified dynamics model is augmented by a long short term memory (LSTM) residual model, which can capture complicated hydrodynamics effect and eliminate model mismatch. 
 </div>
 </div>
 
