@@ -67,7 +67,7 @@ Maotong Cheng, **Jinke Yao**, Qinyuan Ren
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+<!-- - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020** -->
 
 # 🎖 Honors and Awards
 - *2024.07* Outstanding Graduate of Northeastern University (Shenyang, China).  
@@ -79,7 +79,7 @@ Maotong Cheng, **Jinke Yao**, Qinyuan Ren
 
 # 💬 Invited Talks
 - *2024.08*, A Confidence-based Allocation Approach for USV Trajectory Tracking via Human-Robot Co-Driving 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+<!-- - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
 
 # 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+<!-- - *2019.05 - 2020.02*, [Lorem](https://github.com/), China. -->
