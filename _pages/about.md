@@ -38,8 +38,8 @@ As a newcomer to academic research, I am eager to engage in discussions and exch
 
 [**Project**](https://github.com/Jackyyaojk/BoatController.git) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - A model-based reinforcement learning algorithm is used to optimize microgrid scheduling. During training, the learned networks assist Monte Carlo Tree Search (MCTS) in accumulating game history and updating network parameters. This process yields optimal scheduling strategies and a simulated environmental dynamics model. A microgrid simulator is developed, incorporating HVAC, photovoltaic (PV), and energy storage (ES) systems for the simulation.
-</div>
-</div>
+<!-- </div>
+</div> -->
 
 <!-- 2024 Cis-ram -->
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CIS-RAM2024</div><img src='images/CISRAM2024.png' alt="sym" width="100%"></div></div>
@@ -51,8 +51,8 @@ As a newcomer to academic research, I am eager to engage in discussions and exch
 
 [**Project**](https://github.com/Jackyyaojk/BoatController.git) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - a Human-Driving Co-driving framework to achieve the human-in-the loop control is proposed in our work. A nonlinear Model Predictive Control (MPC) framework with nominal dynamic model will be solved for optimal tracking accuracy. And a confidence-based dynamic authority allocation method considering temporal stochastic driver model enable the flexible and efficient shared control. 
-</div>
-</div>
+<!-- </div>
+</div> -->
 
 <!-- 2024ICCA -->
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCA2024</div><img src='images/ICCA2024.png' alt="sym" width="100%"></div></div>
