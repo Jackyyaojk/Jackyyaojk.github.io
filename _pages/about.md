@@ -37,7 +37,7 @@ As a newcomer to academic research, I am eager to engage in discussions and exch
 **Jinke Yao**, Jiachen Xu, Ning Zhang, Yajuan Guan
 
 [**Project**](https://github.com/Jackyyaojk/BoatController.git) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- A model-based reinforcement learning algorithm is used to optimize microgrid scheduling. During training, the learned networks assist Monte Carlo Tree Search (MCTS) in accumulating game history and updating network parameters. This process yields optimal scheduling strategies and a simulated environmental dynamics model. A microgrid simulator is developed, incorporating HVAC, photovoltaic (PV), and energy storage (ES) systems for the simulation.
+- A model-based reinforcement learning algorithm is used to optimize microgrid scheduling. During training, the learned networks assist Monte Carlo Tree Search (MCTS) in accumulating game history and updating networks. This process yields optimal scheduling strategies and a simulated environmental dynamics model. A microgrid simulator is developed, incorporating HVAC, photovoltaic, and energy storage systems for the simulation.
 <!-- </div>
 </div> -->
 
@@ -50,7 +50,7 @@ As a newcomer to academic research, I am eager to engage in discussions and exch
 **Jinke Yao**, Yingying Shao, Qinyuan Ren
 
 [**Project**](https://github.com/Jackyyaojk/BoatController.git) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- a Human-Driving Co-driving framework to achieve the human-in-the loop control is proposed in our work. A nonlinear Model Predictive Control (MPC) framework with nominal dynamic model will be solved for optimal tracking accuracy. And a confidence-based dynamic authority allocation method considering temporal stochastic driver model enable the flexible and efficient shared control. 
+- A Human-Driving Co-driving framework to achieve the human-in-the loop control is proposed in our work. A nonlinear Model Predictive Control (MPC) framework with nominal dynamic model will be solved for optimal tracking accuracy. And a confidence-based dynamic authority allocation method considering temporal stochastic driver model enable the flexible and efficient shared control. 
 <!-- </div>
 </div> -->
 
