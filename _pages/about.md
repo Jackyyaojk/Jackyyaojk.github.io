@@ -37,9 +37,9 @@ As a newcomer to academic research, I am eager to engage in discussions and exch
 **Jinke Yao**, Jiachen Xu, Ning Zhang, Yajuan Guan
 
 [**Project**](https://github.com/Jackyyaojk/BoatController.git) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- A model-based reinforcement learning algorithm is used to optimize microgrid scheduling. During training, the learned networks assist Monte Carlo Tree Search (MCTS) in accumulating game history and updating network parameters. This process yields optimal scheduling strategies and a simulated environmental dynamics model. A microgrid simulator is developed, incorporating HVAC, photovoltaic (PV), and energy storage (ES) systems for the simulation.
-<!-- </div> -->
-<!-- </div> -->
+- A model-based reinforcement learning algorithm is used to optimize microgrid scheduling. During training, the learned networks assist Monte Carlo Tree Search (MCTS) in accumulating game history and updating network parameters. This process yields optimal scheduling strategies and a simulated environmental dynamics model. A microgrid simulator is developed, incorporating HVAC, photovoltaic, and energy storage systems for the simulation.
+</div>
+</div>
 
 <!-- 2024 Cis-ram -->
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CIS-RAM2024</div><img src='images/CISRAM2024.png' alt="sym" width="100%"></div></div>
@@ -50,9 +50,9 @@ As a newcomer to academic research, I am eager to engage in discussions and exch
 **Jinke Yao**, Yingying Shao, Qinyuan Ren
 
 [**Project**](https://github.com/Jackyyaojk/BoatController.git) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- a Human-Driving Co-driving framework to achieve the human-in-the loop control is proposed in our work. A nonlinear Model Predictive Control (MPC) framework with nominal dynamic model will be solved for optimal tracking accuracy. And a confidence-based dynamic authority allocation method considering temporal stochastic driver model enable the flexible and efficient shared control. 
-<!-- </div> -->
-<!-- </div> -->
+- A Human-Driving Co-driving framework to achieve the human-in-the loop control is proposed in our work. A nonlinear Model Predictive Control (MPC) framework with nominal dynamic model will be solved for optimal tracking accuracy. And a confidence-based dynamic authority allocation method considering temporal stochastic driver model enable the flexible and efficient shared control. 
+</div>
+</div>
 
 <!-- 2024ICCA -->
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCA2024</div><img src='images/ICCA2024.png' alt="sym" width="100%"></div></div>
@@ -63,7 +63,7 @@ As a newcomer to academic research, I am eager to engage in discussions and exch
 Maotong Cheng, **Jinke Yao**, Qinyuan Ren
 
 [**Project**](https://github.com/Jackyyaojk/BoatController.git) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- a learning-based model predictive control (MPC) approach for USV course-keeping subject to disturbances and uncertainties. A relatively simplified dynamics model is augmented by a long short term memory (LSTM) residual model, which can capture complicated hydrodynamics effect and eliminate model mismatch. 
+- A learning-based model predictive control (MPC) approach for USV course-keeping subject to disturbances and uncertainties. A relatively simplified dynamics model is augmented by a long short term memory (LSTM) residual model, which can capture complicated hydrodynamics effect and eliminate model mismatch. 
 </div>
 </div>
 
@@ -74,8 +74,8 @@ Maotong Cheng, **Jinke Yao**, Qinyuan Ren
 - *2024.07* Outstanding Thesis of Northeastern University (Shenyang, China).  
 
 # 📖 Educations
-- *2024.09 -  (now)*,  Ph.D， Control Science and Engineering, Zhejiang University (Hangzhou, China)
-- *2020.09 - 2024.06*, Bachelor, Automation， Northeastern University (Shenyang, China). 
+- *2024.09 -  (now)*,  Ph.D, Control Science and Engineering, Zhejiang University (Hangzhou, China)
+- *2020.09 - 2024.06*, Bachelor, Automation, Northeastern University (Shenyang, China). 
 
 # 💬 Invited Talks
 - *2024.08*, A Confidence-based Allocation Approach for USV Trajectory Tracking via Human-Robot Co-Driving 
