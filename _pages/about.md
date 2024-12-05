@@ -29,7 +29,7 @@ As a newcomer to academic research, I am eager to engage in discussions and exch
 
 # 📝 Publications 
 <!-- 2023sustainablity -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Sustainablity</div><img src='images/image.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Sustainablity</div><img src='images/Sustainablity.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Model-Based Reinforcement Learning Method for Microgrid Optimization Scheduling](https://www.mdpi.com/2071-1050/15/12/9235)
@@ -42,7 +42,7 @@ As a newcomer to academic research, I am eager to engage in discussions and exch
 </div>
 
 <!-- 2024 Cis-ram -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CIS-RAM2024</div><img src='images/cis-ram.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CIS-RAM2024</div><img src='images/CISRAM2024.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [A Confidence-based Allocation Approach for USV Trajectory Tracking via Human-Robot Co-Drivin](https://ieeexplore.ieee.org/abstract/document/10673172)
@@ -55,7 +55,7 @@ As a newcomer to academic research, I am eager to engage in discussions and exch
 </div>
 
 <!-- 2024ICCA -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Sustainablity</div><img src='images/2024iccay.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Sustainablity</div><img src='images/ICCA2024.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [A Model Predictive Control Approach for USV Autonomous Cruising via Disturbance Learning](https://ieeexplore.ieee.org/abstract/document/10591898)
