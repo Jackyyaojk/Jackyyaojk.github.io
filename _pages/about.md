@@ -28,20 +28,46 @@ As a newcomer to academic research, I am eager to engage in discussions and exch
 - *2024.08*: &nbsp;🎉🎉 2024 CIS-RAM "A Confidence-based Allocation Approach for USV Trajectory Tracking via Human-Robot Co-Driving"
 
 # 📝 Publications 
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<!-- 2023sustainablity -->
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Sustainablity</div><img src='images/sustainabllity.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+[Model-Based Reinforcement Learning Method for Microgrid Optimization Scheduling](https://www.mdpi.com/2071-1050/15/12/9235)
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+**Jinke Yao**, Jiachen Xu, Ning Zhang, Yajuan Guan
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+[**Project**](https://github.com/Jackyyaojk/BoatController.git) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+- a model-based reinforcement learning algorithm is applied to the optimal scheduling problem of microgrids. During the training process, the current learned networks are used to assist Monte Carlo Tree Search (MCTS) in completing game history accumulation, and updating the learning network parameters to obtain optimal microgrid scheduling strategies and a simulated environmental dynamics model. We establish a microgrid environment simulator that includes Heating Ventilation Air Conditioning (HVAC) systems, Photovoltaic (PV) systems, and Energy Storage (ES) systems for simulation. 
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+<!-- 2024 Cis-ram -->
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CIS-RAM2024</div><img src='images/cis-ram.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[A Confidence-based Allocation Approach for USV Trajectory Tracking via Human-Robot Co-Drivin](https://ieeexplore.ieee.org/abstract/document/10673172)
+
+**Jinke Yao**, Yingying Shao, Qinyuan Ren
+
+[**Project**](https://github.com/Jackyyaojk/BoatController.git) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+- a Human-Driving Co-driving framework to achieve the human-in-the loop control is proposed in our work. A nonlinear Model Predictive Control (MPC) framework with nominal dynamic model will be solved for optimal tracking accuracy. And a confidence-based dynamic authority allocation method considering temporal stochastic driver model enable the flexible and efficient shared control. 
+</div>
+</div>
+
+<!-- 2024ICCA -->
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Sustainablity</div><img src='images/2024iccay.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[A Model Predictive Control Approach for USV Autonomous Cruising via Disturbance Learning](https://ieeexplore.ieee.org/abstract/document/10591898)
+
+Maotong Cheng, **Jinke Yao**, Qinyuan Ren
+
+[**Project**](https://github.com/Jackyyaojk/BoatController.git) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+- a learning-based model predictive control (MPC) approach for USV course-keeping subject to disturbances and uncertainties. A relatively simplified dynamics model is augmented by a long short term memory (LSTM) residual model, which can capture complicated hydrodynamics effect and eliminate model mismatch. 
+</div>
+</div>
+
+<!-- - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020** -->
 
 # 🎖 Honors and Awards
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
