@@ -37,7 +37,7 @@ As a newcomer to academic research, I am eager to engage in discussions and exch
 **Jinke Yao**, Jiachen Xu, Ning Zhang, Yajuan Guan
 
 [**Project**](https://github.com/Jackyyaojk/BoatController.git) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- a model-based reinforcement learning algorithm is applied to the optimal scheduling problem of microgrids. During the training process, the current learned networks are used to assist Monte Carlo Tree Search (MCTS) in completing game history accumulation, and updating the learning network parameters to obtain optimal microgrid scheduling strategies and a simulated environmental dynamics model. We establish a microgrid environment simulator that includes Heating Ventilation Air Conditioning (HVAC) systems, Photovoltaic (PV) systems, and Energy Storage (ES) systems for simulation. 
+- A model-based reinforcement learning algorithm is used to optimize microgrid scheduling. During training, the learned networks assist Monte Carlo Tree Search (MCTS) in accumulating game history and updating network parameters. This process yields optimal scheduling strategies and a simulated environmental dynamics model. A microgrid simulator is developed, incorporating HVAC, photovoltaic (PV), and energy storage (ES) systems for the simulation.
 </div>
 </div>
 
