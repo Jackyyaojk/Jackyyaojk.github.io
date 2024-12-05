@@ -45,7 +45,7 @@ As a newcomer to academic research, I am eager to engage in discussions and exch
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CIS-RAM2024</div><img src='images/CISRAM2024.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[A Confidence-based Allocation Approach for USV Trajectory Tracking via Human-Robot Co-Drivin](https://ieeexplore.ieee.org/abstract/document/10673172)
+[A Confidence-based Allocation Approach for USV Trajectory Tracking via Human-Robot Co-Driving](https://ieeexplore.ieee.org/abstract/document/10673172)
 
 **Jinke Yao**, Yingying Shao, Qinyuan Ren
 
@@ -70,16 +70,16 @@ Maotong Cheng, **Jinke Yao**, Qinyuan Ren
 <!-- - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020** -->
 
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2024.07* Outstanding Graduate of Northeastern University (Shenyang, China).  
+- *2024.07* Outstanding Thesis of Northeastern University (Shenyang, China).  
 
 # 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2024.09 -  (now)*,  Ph.D， Control Science and Engineering, Zhejiang University (Hangzhou, China)
+- *2020.09 - 2024.06*, Bachelor, Automation， Northeastern University (Shenyang, China). 
 
 # 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+- *2024.08*, A Confidence-based Allocation Approach for USV Trajectory Tracking via Human-Robot Co-Driving 
+<!-- - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
 
 # 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+<!-- - *2019.05 - 2020.02*, [Lorem](https://github.com/), China. -->
