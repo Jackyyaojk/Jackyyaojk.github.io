@@ -23,7 +23,7 @@ As a newcomer to academic research, I am eager to engage in discussions and exch
 
 
 # 🔥 News
-*The publication during my career：*
+- *The publication during my career：*
 ## Journal
 - *2023.06*: &nbsp;🎉🎉 Sustainablity "Model-Based Reinforcement Learning Method for Microgrid Optimization Scheduling"
 ## Conference
