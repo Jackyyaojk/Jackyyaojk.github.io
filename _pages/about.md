@@ -23,11 +23,15 @@ As a newcomer to academic research, I am eager to engage in discussions and exch
 
 
 # 🔥 News
+## Journal
 - *2023.06*: &nbsp;🎉🎉 Sustainablity "Model-Based Reinforcement Learning Method for Microgrid Optimization Scheduling"
+## Conference
 - *2024.06*: &nbsp;🎉🎉 2024 ICCA "A Model Predictive Control Approach for USV Autonomous Cruising via Disturbance Learning"
 - *2024.08*: &nbsp;🎉🎉 2024 CIS-RAM "A Confidence-based Allocation Approach for USV Trajectory Tracking via Human-Robot Co-Driving"
+- *2024.09*: &nbsp;🎉🎉 2024 ITSC "A Shared Control Approach for Steering Assistance via Online Learning"
+- *2024.12*: &nbsp;🎉🎉 2024 ROBIO "Bio-Inspired Fuzzy Sliding Mode Based Cruise Control of USV with Model Uncertainty"
 
-# 📝 Publications 
+# 📝 Periodical Publications 
 <!-- 2023sustainablity -->
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Sustainablity</div><img src='images/Sustainablity.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -41,6 +45,7 @@ As a newcomer to academic research, I am eager to engage in discussions and exch
 </div>
 </div>
 
+# 📖 Conference Publications 
 <!-- 2024 Cis-ram -->
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CIS-RAM2024</div><img src='images/CISRAM2024.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -50,7 +55,7 @@ As a newcomer to academic research, I am eager to engage in discussions and exch
 **Jinke Yao**, Yingying Shao, Qinyuan Ren
 
 [**Project**](https://github.com/Jackyyaojk/BoatController.git) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- A Human-Driving Co-driving framework to achieve the human-in-the loop control is proposed in our work. A nonlinear Model Predictive Control (MPC) framework with nominal dynamic model will be solved for optimal tracking accuracy. And a confidence-based dynamic authority allocation method considering temporal stochastic driver model enable the flexible and efficient shared control. 
+- A Human-Robot Co-driving framework to achieve the human-in-the loop control is proposed in our work. A nonlinear Model Predictive Control (MPC) framework with nominal dynamic model will be solved for optimal tracking accuracy. And a confidence-based dynamic authority allocation method considering temporal stochastic driver model enable the flexible and efficient shared control. 
 </div>
 </div>
 
