@@ -17,62 +17,23 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-My work is primarily focused on the concept of "interaction," which encompasses the integration and application of virtual-physical interaction technologies. These technologies are designed to enable seamless collaboration between human partners and embodied intelligent robots, allowing them to operate and perform complex tasks in a wide variety of physical environments and locations. Through advanced interaction frameworks, human-robot teams can leverage existing tools and interfaces to execute a broad range of actions or movement tasks. This collaborative synergy enables the successful completion of operations that require precision, adaptability, and coordination in real-world scenarios, breaking down the traditional barriers between virtual and physical spaces. The aim is to create a dynamic, adaptable system where robots and humans can work together effortlessly, regardless of the environment or task at hand.
+My research advances transfer learning for dexterous manipulation, enabling robots to generalize across embodiments, environments, and tasks. I develop methods that distill manipulation priors from diverse data sources and re-ground them in new physical contexts, allowing skills such as grasping, in-hand manipulation, and tool use to remain consistent despite changes in robot morphology, workspace conditions, or task objectives. The goal is to build versatile embodied agents capable of rapidly adapting fine-grained manipulation strategies to novel settings with minimal additional supervision.
 
 As a newcomer to academic research, I am eager to engage in discussions and exchanges with fellow researchers. I look forward to collaborating with others to collectively advance the era of embodied intelligence.<img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations">.
 
 
 # 🔥 News
-- *The publication during my career：*
-## Journal
-- *2023.06*: &nbsp;🎉🎉 Sustainablity "Model-Based Reinforcement Learning Method for Microgrid Optimization Scheduling"
-## Conference
-- *2024.06*: &nbsp;🎉🎉 2024 ICCA "A Model Predictive Control Approach for USV Autonomous Cruising via Disturbance Learning"
-- *2024.08*: &nbsp;🎉🎉 2024 CIS-RAM "A Confidence-based Allocation Approach for USV Trajectory Tracking via Human-Robot Co-Driving"
-- *2024.09*: &nbsp;🎉🎉 2024 ITSC "A Shared Control Approach for Steering Assistance via Online Learning"
-- *2024.12*: &nbsp;🎉🎉 2024 ROBIO "Bio-Inspired Fuzzy Sliding Mode Based Cruise Control of USV with Model Uncertainty"
+**The publication during my career：**
 
-# 📝 Periodical Publications 
-<!-- 2023sustainablity -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Sustainablity</div><img src='images/Sustainablity.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+## 🗞️ Journal
+- Yao, Jinke, et al. "Model-Based Reinforcement Learning Method for Microgrid Optimization Scheduling." *Sustainability* 15.12 (2023): 9235.Scheduling"
 
-[Model-Based Reinforcement Learning Method for Microgrid Optimization Scheduling](https://www.mdpi.com/2071-1050/15/12/9235)
-
-**Jinke Yao**, Jiachen Xu, Ning Zhang, Yajuan Guan
-
-[**Project**](https://github.com/Jackyyaojk/BoatController.git) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- A model-based reinforcement learning algorithm is used to optimize microgrid scheduling. During training, the learned networks assist Monte Carlo Tree Search (MCTS) in accumulating game history and updating network parameters. This process yields optimal scheduling strategies and a simulated environmental dynamics model. A microgrid simulator is developed, incorporating HVAC, photovoltaic, and energy storage systems for the simulation.
-</div>
-</div>
-
-# 📖 Conference Publications 
-<!-- 2024 Cis-ram -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CIS-RAM2024</div><img src='images/CISRAM2024.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[A Confidence-based Allocation Approach for USV Trajectory Tracking via Human-Robot Co-Driving](https://ieeexplore.ieee.org/abstract/document/10673172)
-
-**Jinke Yao**, Yingying Shao, Qinyuan Ren
-
-[**Project**](https://github.com/Jackyyaojk/BoatController.git) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- A Human-Robot Co-driving framework to achieve the human-in-the loop control is proposed in our work. A nonlinear Model Predictive Control (MPC) framework with nominal dynamic model will be solved for optimal tracking accuracy. And a confidence-based dynamic authority allocation method considering temporal stochastic driver model enable the flexible and efficient shared control. 
-</div>
-</div>
-
-<!-- 2024ICCA -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCA2024</div><img src='images/ICCA2024.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[A Model Predictive Control Approach for USV Autonomous Cruising via Disturbance Learning](https://ieeexplore.ieee.org/abstract/document/10591898)
-
-Maotong Cheng, **Jinke Yao**, Qinyuan Ren
-
-[**Project**](https://github.com/Jackyyaojk/BoatController.git) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- A learning-based model predictive control (MPC) approach for USV course-keeping subject to disturbances and uncertainties. A relatively simplified dynamics model is augmented by a long short term memory (LSTM) residual model, which can capture complicated hydrodynamics effect and eliminate model mismatch. 
-</div>
-</div>
-
+## 🎫 Conference
+- **J. Yao**, W. Zhu, Y. Lang and Q. Ren, **"Progressive Domain Transfer Learning for Contact-rich Hand-Tool-Environment Interaction,"** *IECON 2025 – 51st Annual Conference of the IEEE Industrial Electronics Society*, Madrid, Spain, 2025, pp. 1-6, doi: 10.1109/IECON58223.2025.11221264.
+- Y. Lang, Z. Li, **J. Yao**, X. Shen, H. Yao and Q. Ren, **"A Shared Control Approach for Steering Assistance via Online Learning,"** *2024 IEEE 27th International Conference on Intelligent Transportation Systems (ITSC)*, Edmonton, AB, Canada, 2024, pp. 3399-3404, doi: 10.1109/ITSC58415.2024.10919709.
+- **J. Yao**, H. Bai, Y. Lang and Q. Ren, **"Bio-Inspired Fuzzy Sliding Mode Based Cruise Control of USV with Model Uncertainty,"** *2024 IEEE International Conference on Robotics and Biomimetics (ROBIO)*, Bangkok, Thailand, 2024, pp. 1746-1751, doi: 10.1109/ROBIO64047.2024.10907674.
+- **J. Yao**, Y. Shao and Q. Ren, **"A Confidence-based Allocation Approach for USV Trajectory Tracking via Human-Robot Co-Driving,"** *2024 IEEE International Conference on Cybernetics and Intelligent Systems (CIS) and IEEE International Conference on Robotics, Automation and Mechatronics (RAM)*, Hangzhou, China, 2024, pp. 463-468, doi: 10.1109/CIS-RAM61939.2024.10673172.
+- M. Cheng, **J. Yao** and Q. Ren, **"A Model Predictive Control Approach for USV Autonomous Cruising via Disturbance Learning,"** *2024 IEEE 18th International Conference on Control & Automation (ICCA)*, Reykjavík, Iceland, 2024, pp. 988-993, doi: 10.1109/ICCA62789.2024.10591898.
 
 # 🎖 Honors and Awards
 - *2024.07* Outstanding Graduate of Northeastern University (Shenyang, China).  
@@ -83,7 +44,7 @@ Maotong Cheng, **Jinke Yao**, Qinyuan Ren
 - *2020.09 - 2024.06*, Bachelor, Automation, Northeastern University (Shenyang, China). 
 
 # 💬 Invited Talks
-- *2024.08*, A Confidence-based Allocation Approach for USV Trajectory Tracking via Human-Robot Co-Driving 
-
+{% include carousel.html %}
 
 # 💻 Internships
+

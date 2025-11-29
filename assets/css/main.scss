@@ -107,3 +107,59 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
+
+/* Photo carousel styles */
+.photo-carousel{
+    position: relative;
+    margin: 2rem 0;
+}
+.carousel-track-wrapper{ overflow: hidden; }
+.carousel-track{
+    display:flex;
+    transition: transform .35s ease-in-out;
+    will-change: transform;
+}
+.carousel-slide{
+    /* ensure each slide is exactly the wrapper width so translate % math works reliably */
+    flex: 0 0 100%;
+    min-width: 100%;
+    box-sizing: border-box;
+    padding: 0.5rem;
+    text-align: center;
+}
+.carousel-slide img{ max-width: 100%; height: auto; display:block; margin: 0 auto; border-radius:4px; }
+.carousel-slide figcaption{ margin-top: .5rem; color: #444; font-size: .95rem; }
+.carousel-btn{ position: absolute; top: 50%; transform: translateY(-50%); background: rgba(0,0,0,.5); color: white; border: none; padding: .5rem .9rem; cursor: pointer; font-size: 1.6rem; line-height:1; border-radius: 3px; z-index: 20; }
+.carousel-btn.prev{ left: .5rem }
+.carousel-btn.next{ right: .5rem }
+.carousel-dots{ text-align: center; margin-top: .5rem }
+.carousel-dots button{ display:inline-block; width:10px; height:10px; border-radius:50%; border:none; margin:.25rem; background:#ccc; cursor:pointer }
+.carousel-dots button.is-active{ background:#333 }
+
+@include breakpoint($medium){
+    .carousel-slide{ padding: 1rem 3rem; }
+    .carousel-btn{ padding:.6rem 1rem; }
+}
+
+/* Very faint site-wide background (subtle, non-intrusive)
+   - Default is a very low-opacity linear gradient.
+   - To use an image, change background-image to url('/assets/images/bg-pattern.png') and add that file.
+*/
+html, body { height: 100%; }
+body::before{
+    content: "";
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    /* use the provided image with a semi-opaque white overlay; lowered opacity to make image more visible */
+    background-image: linear-gradient(rgba(255,255,255,0.80), rgba(255,255,255,0.80)), url('{{ "/images/background.jpg" | relative_url }}');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-blend-mode: normal;
+    pointer-events: none; /* don't interfere with clicks */
+    z-index: -1; /* keep it behind the page content */
+}
+
+/* If some theme elements create new stacking contexts and the bg is hidden,
+   you can instead use z-index: 0 on ::before and add `position: relative; z-index: 1;`
+   to the main content wrapper (e.g., .site or .masthead__inner-wrap). */

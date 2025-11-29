@@ -60,6 +60,81 @@ $(document).ready(function(){
   // init smooth scroll
   $("a").smoothScroll({offset: -20});
 
+  // Simple photo carousel initialization
+  (function(){
+    function initCarousel($root){
+      var $track = $root.find('.carousel-track');
+      var $slides = $track.find('.carousel-slide');
+      var total = $slides.length;
+      var index = 0;
+
+      var $dots = $root.find('.carousel-dots');
+      for(var i=0;i<total;i++){
+        var $b = $('<button type="button" aria-label="Show slide '+(i+1)+'"></button>');
+        if(i===0) $b.addClass('is-active');
+        (function(btn, idx){ btn.on('click', function(e){ e.preventDefault(); goTo(idx); }); })($b, i);
+        $dots.append($b);
+      }
+
+      function update(){
+        // translateX percent is relative to the track's width, so move by (index/total*100)%
+        var pct = (index * 100) / total;
+        $track.css('transform','translateX(-' + pct + '%)');
+        $dots.find('button').removeClass('is-active').eq(index).addClass('is-active');
+      }
+      function goTo(i){ index = (i + total) % total; update(); }
+  $root.find('.next').on('click', function(e){ e.preventDefault(); goTo(index+1); console.log('carousel next clicked'); });
+  $root.find('.prev').on('click', function(e){ e.preventDefault(); goTo(index-1); console.log('carousel prev clicked'); });
+
+      // keyboard
+      $root.on('keydown', function(e){ if(e.key === 'ArrowLeft') goTo(index-1); if(e.key === 'ArrowRight') goTo(index+1); });
+      // make slides focusable for keyboard
+      $root.attr('tabindex',0);
+      // initial
+      update();
+    }
+
+    $('.photo-carousel').each(function(){ initCarousel($(this)); });
+    // Delegated handlers as a fallback (ensures clicks work even if per-instance binding failed)
+    $(document).on('click', '.photo-carousel .next', function(e){
+      e.preventDefault();
+      var $root = $(this).closest('.photo-carousel');
+      var total = $root.find('.carousel-slide').length;
+      var idx = $root.data('carousel-index') || 0;
+      idx = (idx + 1) % total;
+      $root.data('carousel-index', idx);
+      var pct = (idx * 100) / total;
+      $root.find('.carousel-track').css('transform','translateX(-' + pct + '%)');
+      $root.find('.carousel-dots button').removeClass('is-active').eq(idx).addClass('is-active');
+    });
+
+    $(document).on('click', '.photo-carousel .prev', function(e){
+      e.preventDefault();
+      var $root = $(this).closest('.photo-carousel');
+      var total = $root.find('.carousel-slide').length;
+      var idx = $root.data('carousel-index') || 0;
+      idx = (idx - 1 + total) % total;
+      $root.data('carousel-index', idx);
+      var pct = (idx * 100) / total;
+      $root.find('.carousel-track').css('transform','translateX(-' + pct + '%)');
+      $root.find('.carousel-dots button').removeClass('is-active').eq(idx).addClass('is-active');
+    });
+
+    $(document).on('click', '.photo-carousel .carousel-dots button', function(e){
+      e.preventDefault();
+      var $btn = $(this);
+      var idx = $btn.index();
+      var $root = $btn.closest('.photo-carousel');
+      var total = $root.find('.carousel-slide').length;
+      $root.data('carousel-index', idx);
+      var pct = (idx * 100) / total;
+      $root.find('.carousel-track').css('transform','translateX(-' + pct + '%)');
+      $root.find('.carousel-dots button').removeClass('is-active').eq(idx).addClass('is-active');
+    });
+  })();
+
+  // Single-page navigation removed: navigation will use normal page links
+
   // add lightbox class to all image links
   $("a[href$='.jpg'],a[href$='.jpeg'],a[href$='.JPG'],a[href$='.png'],a[href$='.gif']").addClass("image-popup");
 
