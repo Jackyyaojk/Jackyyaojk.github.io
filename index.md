@@ -2,10 +2,6 @@
 layout: default
 title: Home
 ---
----
-layout: default
-title: Home
----
 
 <!-- Include only the About content here so the top masthead shows pages via AJAX. -->
 {% include_relative _pages/about.md %}
