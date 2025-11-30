@@ -18,7 +18,7 @@ As a newcomer to academic research, I am eager to engage in discussions and exch
 **The publication during my career：**
 
 ## 🗞️ Journal
-- Yao, Jinke, et al. "Model-Based Reinforcement Learning Method for Microgrid Optimization Scheduling." *Sustainability* 15.12 (2023): 9235.Scheduling"
+- **J. Yao**, J. Xu, N. Zhang and Y. Guan, **“Model-Based Reinforcement Learning Method for Microgrid Optimization Scheduling,”** *Sustainability*, vol. 15, no. 12, p. 9235, 2023.
 
 ## 🎫 Conference
 - **J. Yao**, W. Zhu, Y. Lang and Q. Ren, **"Progressive Domain Transfer Learning for Contact-rich Hand-Tool-Environment Interaction,"** *IECON 2025 – 51st Annual Conference of the IEEE Industrial Electronics Society*, Madrid, Spain, 2025, pp. 1-6, doi: 10.1109/IECON58223.2025.11221264.
