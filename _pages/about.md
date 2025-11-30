@@ -32,11 +32,27 @@ As a newcomer to academic research, I am eager to engage in discussions and exch
 - *2024.07* Outstanding Thesis of Northeastern University (Shenyang, China).  
 
 # 📖 Educations
-- *2024.09 -  (now)*,  Ph.D, Control Science and Engineering, Zhejiang University (Hangzhou, China)
-- *2020.09 - 2024.06*, Bachelor, Automation, Northeastern University (Shenyang, China). 
+<div class="edu-table-container">
+<table class="edu-table">
+	<tbody>
+		<tr>
+			<td class="edu-date">*2024.09 - (now)*</td>
+			<td class="edu-degree">Ph.D</td>
+			<td class="edu-major">Control Science and Engineering</td>
+			<td class="edu-school"><a href="https://www.zju.edu.cn/english/" target="_blank" rel="noopener noreferrer"><strong>Zhejiang University (Hangzhou, China)</strong></a></td>
+		</tr>
+		<tr>
+			<td class="edu-date">*2020.09 - 2024.06*</td>
+			<td class="edu-degree">Bachelor</td>
+			<td class="edu-major">Automation</td>
+			<td class="edu-school"><a href="https://www.neu.edu.cn/" target="_blank" rel="noopener noreferrer"><strong>Northeastern University (Shenyang, China)</strong></a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
 
 # 💬 Invited Talks
 {% include carousel.html %}
 
 # 💻 Internships
-
+- *2025.11 - 2026.01*， Chassis Controls Engineer， <a href="https://www.spirit-ai.com/en/" target="_blank" rel="noopener noreferrer">**Spirit-AI Robotics**</a>

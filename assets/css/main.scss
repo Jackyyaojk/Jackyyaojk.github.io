@@ -163,3 +163,19 @@ body::before{
 /* If some theme elements create new stacking contexts and the bg is hidden,
    you can instead use z-index: 0 on ::before and add `position: relative; z-index: 1;`
    to the main content wrapper (e.g., .site or .masthead__inner-wrap). */
+
+/* Education table styles (compact, left-aligned columns) */
+.edu-table-container{ overflow-x: auto; margin: 0 0 1rem 0; }
+.edu-table{ width: 100%; border-collapse: collapse; max-width: 100%; }
+.edu-table td{ padding: 0.25rem 0.5rem; text-align: left; vertical-align: top; }
+.edu-table td.edu-date{ width: 12rem; font-style: italic; color: $dark-gray; }
+.edu-table td.edu-degree{ width: 10rem; font-weight: 600; }
+.edu-table td.edu-major{ width: 18rem; }
+.edu-table td.edu-school{ width: 1fr; }
+
+/* Small screens: allow table to be scrolled horizontally and keep readable */
+@include breakpoint($small){
+    .edu-table td{ white-space: normal; }
+}
+
+/* Education list alignment removed — reverted to original markdown list in about.md */
