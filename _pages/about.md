@@ -56,3 +56,4 @@ As a newcomer to academic research, I am eager to engage in discussions and exch
 
 # 💻 Internships
 - *2025.11 - 2026.01*， Chassis Controls Engineer， <a href="https://www.spirit-ai.com/en/" target="_blank" rel="noopener noreferrer">**Spirit-AI Robotics**</a>
+

@@ -38,6 +38,13 @@
       update();
     }
 
+    // expose an initializer so dynamically-inserted carousels can be wired up
+    window.CarouselInit = function(el){
+      if(!el){ $('.photo-carousel').each(function(){ initCarousel($(this)); }); return; }
+      var $el = (el instanceof jQuery) ? el : $(el);
+      initCarousel($el);
+    };
+
     $('.photo-carousel').each(function(){ initCarousel($(this)); });
 
     // No document-level delegated handlers — each carousel instance wires its own handlers

@@ -111,35 +111,43 @@ h1:before, .anchor:before {
 /* Photo carousel styles */
 .photo-carousel{
     position: relative;
-    margin: 2rem 0;
+    /* reduce vertical spacing around carousels */
+    /* reduce top spacing slightly and remove bottom spacing to avoid large gaps */
+    margin: 0.5rem 0 0 0;
 }
 .carousel-track-wrapper{ overflow: hidden; }
 .carousel-track{
     display:flex;
     transition: transform .35s ease-in-out;
     will-change: transform;
+    /* align slides to the top to avoid large gaps when slides have differing heights */
+    align-items: flex-start;
 }
 .carousel-slide{
     /* ensure each slide is exactly the wrapper width so translate % math works reliably */
     flex: 0 0 100%;
     min-width: 100%;
     box-sizing: border-box;
-    padding: 0.5rem;
+    padding: 0.25rem 0.5rem;
     text-align: center;
 }
 .carousel-slide img{ max-width: 100%; height: auto; display:block; margin: 0 auto; border-radius:4px; }
-.carousel-slide figcaption{ margin-top: .5rem; color: #444; font-size: .95rem; }
-.carousel-btn{ position: absolute; top: 50%; transform: translateY(-50%); background: rgba(0,0,0,.5); color: white; border: none; padding: .5rem .9rem; cursor: pointer; font-size: 1.6rem; line-height:1; border-radius: 3px; z-index: 20; }
+.carousel-slide figcaption{ margin-top: .4rem; color: #444; font-size: .92rem; }
+.carousel-btn{ position: absolute; top: 50%; transform: translateY(-50%); background: rgba(0,0,0,.5); color: white; border: none; padding: .45rem .85rem; cursor: pointer; font-size: 1.5rem; line-height:1; border-radius: 3px; z-index: 20; }
 .carousel-btn.prev{ left: .5rem }
 .carousel-btn.next{ right: .5rem }
-.carousel-dots{ text-align: center; margin-top: .5rem }
+.carousel-dots{ text-align: center; margin-top: .25rem }
 .carousel-dots button{ display:inline-block; width:10px; height:10px; border-radius:50%; border:none; margin:.25rem; background:#ccc; cursor:pointer }
 .carousel-dots button.is-active{ background:#333 }
 
 @include breakpoint($medium){
-    .carousel-slide{ padding: 1rem 3rem; }
+    /* reduce wide horizontal padding so slides don't force extra wrapper sizing */
+    .carousel-slide{ padding: 0.5rem 1rem; }
     .carousel-btn{ padding:.6rem 1rem; }
 }
+
+/* Defensive overrides to ensure no unexpected bottom spacing remains */
+.photo-carousel, .carousel-track-wrapper, .carousel-track, .carousel-slide { margin-bottom: 0 !important; padding-bottom: 0 !important; }
 
 /* Very faint site-wide background (subtle, non-intrusive)
    - Default is a very low-opacity linear gradient.
@@ -179,3 +187,33 @@ body::before{
 }
 
 /* Education list alignment removed — reverted to original markdown list in about.md */
+
+/* Service cards (Student & Social Work) */
+.service-cards{
+    display:flex;
+    flex-direction:column;
+    gap:1.25rem;
+}
+.service-card{
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 1.25rem 1.25rem 1.5rem 1.25rem;
+    box-shadow: 0 6px 18px rgba(20,20,30,0.06);
+    border: 1px solid rgba(0,0,0,0.04);
+    transition: transform .18s ease, box-shadow .18s ease;
+    position: relative;
+}
+.service-card:hover{ transform: translateY(-4px); box-shadow: 0 10px 30px rgba(20,20,30,0.08); }
+.service-title{ margin:0 0 .25rem 0; font-size:1.05rem; font-weight:700; color:#072b6b; }
+.service-org{ margin:0 0 .5rem 0; color:#444; font-size:.95rem; }
+.service-desc{ margin:0 0 .75rem 0; color:#555; line-height:1.5; }
+
+/* scroll-hint: rounded track with a small animated dot (like a mouse wheel indicator) */
+.scroll-hint{ width:40px; height:28px; margin:0.25rem auto 0 auto; border-radius:20px; background: rgba(0,0,0,0.06); display:flex; align-items:center; justify-content:center; }
+.scroll-hint .wheel{ width:6px; height:6px; background: rgba(0,0,0,0.35); border-radius:50%; display:block; animation: wheel-bounce 1.1s infinite; }
+@keyframes wheel-bounce{ 0%{ transform: translateY(-4px); opacity:.6 } 50%{ transform: translateY(4px); opacity:1 } 100%{ transform: translateY(-4px); opacity:.6 } }
+
+@include breakpoint($medium){
+    .service-cards{ flex-direction: row; gap:1rem; }
+    .service-card{ flex:1; }
+}
